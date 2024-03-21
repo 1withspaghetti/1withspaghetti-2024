@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  @apply bg-gradient-to-t from-cyan-800 to-blue-600 text-light-100;
+  background-image: linear-gradient(to top, #1c91e2 0%, #5865b9 100%);
+}
